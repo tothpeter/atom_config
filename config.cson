@@ -1,0 +1,27 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4470757a-65e8-42fa-9a89-0dd44e01f6ca"
+  core:
+    disabledPackages: [
+      "symbols-view"
+      "linter-jscs"
+      "linter-erb"
+      "linter-jshint"
+    ]
+  editor:
+    fontSize: 15
+    preferredLineLength: 800
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "400909e5-f004-3c70-da28-bdd0ab643130"
+  linter:
+    errorPanelHeight: 90
+  pigments:
+    markerType: "underline"
+  welcome:
+    showOnStartup: false
+".angular.html.text":
+  editor:
+    preferredLineLength: 800
