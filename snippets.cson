@@ -150,6 +150,15 @@
         $3
       end
     """
+  'def inline':
+    'prefix': 'defi'
+    'body': 'def $1($2), do: $0'
+  'Map':
+    'prefix': '%'
+    'body': '%{$0}'
+  'function':
+    'prefix': '&'
+    'body': '&()'
 
 
 
