@@ -1,0 +1,6 @@
+*
+!.gitignore
+!snippets.cson
+!keymap.cson
+!config.cson
+!readme.md
