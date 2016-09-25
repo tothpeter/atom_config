@@ -25,3 +25,6 @@
 ".angular.html.text":
   editor:
     preferredLineLength: 800
+".gnuplot.source":
+  editor:
+    preferredLineLength: 800
