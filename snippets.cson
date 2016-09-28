@@ -156,11 +156,15 @@
   'Map':
     'prefix': '%'
     'body': '%{$0}'
+  'Pipe':
+    'prefix': '|'
+    'body': '|> '
   'function':
     'prefix': '&'
     'body': '&()'
-
-
+  'for inline':
+    'prefix': 'fori'
+    'body': 'for $1 <- $2, do: $0'
 
 
 ".erb":
