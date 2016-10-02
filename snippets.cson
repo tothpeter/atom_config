@@ -133,6 +133,9 @@
   'IO.puts "-----"':
     prefix: 'le'
     body: "IO.puts \"----------------------\""
+  'defmodule':
+    'prefix': 'defm'
+    'body': 'defmodule $1 do\n\t$0\nend'
 
   # 'IO.inspect':
   #   prefix: 'li'
@@ -165,7 +168,9 @@
   'for inline':
     'prefix': 'fori'
     'body': 'for $1 <- $2, do: $0'
-
+  'arrow':
+    'prefix': '-'
+    'body': '-> '
 
 ".erb":
 # Original
