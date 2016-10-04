@@ -39,6 +39,7 @@
   'ctrl-down': 'emmet:decrement-number-by-1'
   'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
   'shift-delete': 'editor:delete-line'
+  'ctrl-k ctrl-t': 'change-case:title'
 
 
 # 'atom-text-editor[data-grammar="text html basic"]:not([mini]), atom-text-editor[data-grammar~="erb"]:not([mini]), atom-text-editor[data-grammar~="hbs"]:not([mini]), atom-text-editor[data-grammar~="jade"]:not([mini]), atom-text-editor[data-grammar~="css"]:not([mini]), atom-text-editor[data-grammar~="stylus"]:not([mini]), atom-text-editor[data-grammar~="sass"]:not([mini])':

@@ -14,3 +14,4 @@
 - rails last migration
 - script
 - language-scss
+- change-case
