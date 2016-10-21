@@ -103,6 +103,9 @@
   "Rails.logger.error '--'":
     prefix: "le"
     body: "Rails.logger.error \"-----------------------------------------\""
+  "Ruby puts separator":
+    prefix: "p"
+    body: "p \"-----------------------------------------\""
 
   "params[:id]":
     prefix: "pa"
