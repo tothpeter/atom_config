@@ -15,3 +15,4 @@
 - script
 - language-scss
 - change-case
+- clipboard-history
