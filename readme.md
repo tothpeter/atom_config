@@ -16,3 +16,4 @@
 - language-scss
 - change-case
 - clipboard-history
+- rails-rspec
