@@ -31,9 +31,12 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
-'atom-workspace atom-text-editor:not([mini])':
-  'ctrl-shift-down': 'editor:move-line-down'
-  'ctrl-shift-up': 'editor:move-line-up'
+# 'atom-workspace atom-text-editor:not([mini])':
+
+# Unix/Win
+'.platform-win32, .platform-linux':
+  'alt-shift-down': 'editor:move-line-down'
+  'alt-shift-up': 'editor:move-line-up'
   'ctrl-shift-.': 'erb-snippets:erb_tags'
   'ctrl-up': 'emmet:increment-number-by-1'
   'ctrl-down': 'emmet:decrement-number-by-1'
@@ -43,6 +46,15 @@
   'ctrl-k ctrl-s': 'change-case:snake'
   'ctrl-k ctrl-c': 'change-case:camel'
   'ctrl-k ctrl-d': 'change-case:param'
+
+# OSX
+'.platform-darwin':
+  'cmd-k cmd-t': 'change-case:title'
+  'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
+  'cmd-shift-backspace': 'editor:delete-line'
+  'shift-backspace': 'editor:delete-line'
+'.platform-darwin .editor':
+  'cmd-shift-backspace': 'editor:delete-line'
 
 
 # 'atom-text-editor[data-grammar="text html basic"]:not([mini]), atom-text-editor[data-grammar~="erb"]:not([mini]), atom-text-editor[data-grammar~="hbs"]:not([mini]), atom-text-editor[data-grammar~="jade"]:not([mini]), atom-text-editor[data-grammar~="css"]:not([mini]), atom-text-editor[data-grammar~="stylus"]:not([mini]), atom-text-editor[data-grammar~="sass"]:not([mini])':
