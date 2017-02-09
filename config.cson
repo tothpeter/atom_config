@@ -2,6 +2,9 @@
   "atom-beautify":
     general:
       _analyticsUserId: "4470757a-65e8-42fa-9a89-0dd44e01f6ca"
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin"
+    erlangHome: "/usr/local/bin"
   core:
     disabledPackages: [
       "symbols-view"
