@@ -1,19 +1,23 @@
 ## Used atom packages
-- angularjs
-- atom-ctags
+
+### Client side
+- pigments
 - emmet
-- erb-snippets
-- git-controll
-- git-history
+- language-scss
+- linter-jshint
+
+### General
+- atom-ctags
 - highlight-selected
 - file-icons
-- linter-jshint
-- open recent
-- git-plus
-- pigments
-- rails last migration
 - script
-- language-scss
 - change-case
-- clipboard-history
+- open recent
+
+### Rails
 - rails-rspec
+- rails-snippets
+- rails-latest-migration
+
+### Other
+- erb-snippets
