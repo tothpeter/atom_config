@@ -12,6 +12,7 @@
       "linter-erb"
       "linter-jshint"
     ]
+    telemetryConsent: "limited"
   editor:
     fontSize: 15
     preferredLineLength: 800
