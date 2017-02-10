@@ -1,11 +1,5 @@
 ## Used atom packages
 
-### Client side
-- pigments
-- emmet
-- language-scss
-- linter-jshint
-
 ### General
 - atom-ctags
 - highlight-selected
@@ -13,6 +7,12 @@
 - script
 - change-case
 - open recent
+
+### Client side
+- pigments
+- emmet
+- language-scss
+- linter-jshint
 
 ### Rails
 - rails-rspec
