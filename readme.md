@@ -6,7 +6,8 @@
 - file-icons
 - script
 - change-case
-- open recent
+- open-recent
+- language-dotfiles
 
 ### Client side
 - pigments
