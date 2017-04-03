@@ -97,7 +97,7 @@
     """
 
 # Ruby -----------------------------
-'.source.ruby, .source.ruby.rails':
+'.source.ruby, .source.ruby.rails, .meta.rails.controller, .meta.rails.model':
   "Rails.logger.error '--'":
     prefix: "le"
     body: "Rails.logger.error \"-----------------------------------------\""
