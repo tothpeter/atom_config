@@ -98,9 +98,6 @@
 
 # Ruby -----------------------------
 '.source.ruby, .source.ruby.rails, .meta.rails.controller, .meta.rails.model':
-  "Rails.logger.error '--'":
-    prefix: "le"
-    body: "Rails.logger.error \"-----------------------------------------\""
   "Ruby puts separator":
     prefix: "p"
     body: "p \"-----------------------------------------\""
@@ -114,6 +111,15 @@
     body: """each do |${1:item}|
       ${0}
     end"""
+
+'.source.ruby.rails, .meta.rails.controller, .meta.rails.model':
+  "Rails.logger.error '--'":
+    prefix: "le"
+    body: "Rails.logger.error \"-----------------------------------------\""
+
+  "Rails.logger.info '--'":
+    prefix: "l"
+    body: "Rails.logger.info \"-----------------------------------------\""
 
 # Handlebars -----------------------------
 '.text.html.handlebars':
