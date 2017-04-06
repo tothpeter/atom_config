@@ -44,10 +44,12 @@
   'ctrl-k ctrl-s': 'change-case:snake'
   'ctrl-k ctrl-c': 'change-case:camel'
   'ctrl-k ctrl-d': 'change-case:param'
+  'ctrl-k ctrl-p': 'change-case:param'
 
 # OSX
 '.platform-darwin':
   'cmd-k cmd-t': 'change-case:title'
+  'cmd-k cmd-p': 'change-case:param'
   'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
   'cmd-shift-backspace': 'editor:delete-line'
   'shift-backspace': 'editor:delete-line'
