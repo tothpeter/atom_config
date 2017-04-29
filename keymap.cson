@@ -55,3 +55,6 @@
 '.platform-darwin .editor':
   'cmd-shift-backspace': 'editor:delete-line'
   'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
+
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
