@@ -8,6 +8,7 @@
 - change-case
 - open-recent
 - language-dotfiles
+- calc
 
 ### Client side
 - pigments

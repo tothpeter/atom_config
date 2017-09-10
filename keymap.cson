@@ -52,6 +52,7 @@
   'cmd-k cmd-p': 'change-case:param'
   'cmd-shift-backspace': 'editor:delete-line'
   'shift-backspace': 'editor:delete-line'
+  'cmd-shift-y': 'calc:evaluate'
 '.platform-darwin .editor':
   'cmd-shift-backspace': 'editor:delete-line'
   'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
