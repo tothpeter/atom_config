@@ -21,5 +21,8 @@
 - rails-snippets
 - rails-latest-migration
 
+### Ruby
+- language-rspec
+
 ### Other
 - erb-snippets
