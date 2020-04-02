@@ -13,19 +13,28 @@
       "linter-jscs"
       "linter-erb"
       "linter-jshint"
+      "linter-ui-default"
+      "linter"
     ]
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
   editor:
-    fontSize: 15
     preferredLineLength: 800
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
     userId: "400909e5-f004-3c70-da28-bdd0ab643130"
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
   linter:
-    errorPanelHeight: 90
+    disabledProviders: [
+      "RuboCop"
+    ]
+  "linter-ui-default": {}
   pigments:
     markerType: "underline"
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".angular.html.text":
