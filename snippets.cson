@@ -100,11 +100,15 @@
 '.source.ruby, .source.ruby.rails, .meta.rails.controller, .meta.rails.model':
   "Ruby puts separator":
     prefix: "p"
-    body: "p \"-----------------------------------------\""
+    body: "p '-----------------------------------------'"
 
   "params[:id]":
     prefix: "pa"
     body: "params[${1::id}]"
+
+  "debugger":
+    prefix: "d"
+    body: "debugger"
 
   '.each do |item| ... end':
     prefix: 'each'
@@ -112,14 +116,20 @@
       ${0}
     end"""
 
-'.source.ruby.rails, .meta.rails.controller, .meta.rails.model':
+  '.step do |item| ... end':
+    prefix: 'step'
+    body: """step '${1}' do
+      ${0}
+    end"""
+
+'.source.ruby':
   "Rails.logger.error '--'":
     prefix: "le"
-    body: "Rails.logger.error \"-----------------------------------------\""
+    body: "Rails.logger.error '-----------------------------------------'"
 
   "Rails.logger.info '--'":
-    prefix: "l"
-    body: "Rails.logger.info \"-----------------------------------------\""
+    prefix: "li"
+    body: "Rails.logger.info '-----------------------------------------'"
 
 # Handlebars -----------------------------
 '.text.html.handlebars':
