@@ -57,7 +57,7 @@
   'alt-ctrl-r': 'rails-rspec:toggle-spec-file'
 '.platform-darwin .editor':
   'cmd-shift-backspace': 'editor:delete-line'
-  'ctrl-alt-enter': 'emmet:wrap-with-abbreviation'
+  'alt-cmd-enter': 'emmet:wrap-with-abbreviation'
 
-'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+'atom-text-editor[data-grammar="text html handlebars"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
