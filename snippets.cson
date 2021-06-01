@@ -154,9 +154,6 @@
 # Elixir -----------------------------
 '.source.elixir':
   'IO.puts "-----"':
-    prefix: 'le'
-    body: "IO.puts \"----------------------\""
-  'IO.puts "-----"':
     prefix: 'p'
     body: "IO.puts \"----------------------\""
   'IO.inspect':
@@ -178,9 +175,9 @@
         $3
       end
     """
-  'def inline':
-    prefix: 'defi'
-    body: 'def $1($2), do: $0'
+  # 'def inline':
+  #   prefix: 'defi'
+  #   body: 'def $1($2), do: $0'
   '=> ':
     prefix: '='
     body: "=> "
