@@ -47,8 +47,14 @@
   'ctrl-k ctrl-d': 'change-case:param'
   'ctrl-k ctrl-p': 'change-case:param'
 
-# OSX
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-[': 'window:focus-pane-on-left'
+  'cmd-]': 'window:focus-pane-on-right'
+
+  # OSX
 '.platform-darwin':
+  'cmd-{': 'editor:outdent-selected-rows'
+  'cmd-}': 'editor:indent-selected-rows'
   'cmd-k cmd-t': 'change-case:title'
   'cmd-k cmd-p': 'change-case:param'
   'cmd-shift-backspace': 'editor:delete-line'
