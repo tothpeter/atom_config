@@ -101,13 +101,16 @@
   "Ruby puts separator":
     prefix: "p"
     body: "p '-----------------------------------------'"
+  "pry debugger":
+    prefix: "d"
+    body: "binding.pry"
 
   "params[:id]":
     prefix: "pa"
     body: "params[${1::id}]"
 
   "debugger":
-    prefix: "d"
+    prefix: "deb"
     body: "debugger"
 
   '.each do |item| ... end':
